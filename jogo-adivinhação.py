@@ -3,7 +3,6 @@ print("Bem Vindo ao Jogo da Adivinhação!")
 print("*********************************")
 
 numero_secreto = 12
-
 chute = input("Digite o seu numero:")
 chute_int = int(chute)
 
@@ -16,4 +15,6 @@ if(numero_secreto == chute_int):
 else:
     print("Você errou!")
 
+print("///////////////////////////")
+print("Fim do Jogo!")
 print("///////////////////////////")
