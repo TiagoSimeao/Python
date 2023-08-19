@@ -10,6 +10,7 @@ while(rodada <= total_de_tentativas):
     print("----Tentativa", rodada, "de", total_de_tentativas)
     chute = input("Digite o seu número:")
     chute_int = int(chute)
+    
     acertou = numero_secreto == chute_int
     chute_maior = chute_int > numero_secreto
     chute_menor = chute_int < numero_secreto
