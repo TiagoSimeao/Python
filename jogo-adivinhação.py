@@ -5,9 +5,8 @@ print("Bem Vindo ao Jogo da Adivinhação!")
 print("*********************************")
 
 numero_secreto = (random.randrange(1,101))
-total_de_tentativas = 5
+total_de_tentativas = 10
 
-print(numero_secreto)
 
 for rodada in range(1,total_de_tentativas + 1):
     print("---- Tentativa {} de {}". format(rodada, total_de_tentativas))
