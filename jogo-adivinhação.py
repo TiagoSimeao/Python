@@ -31,6 +31,9 @@ for rodada in range(1,total_de_tentativas + 1):
             print("Você errou! Seu número é maior que o número secreto!")
         elif(chute_menor):
             print("Você errou! Seu número é menor que o número secreto!")
+    
+    if(rodada == total_de_tentativas):
+        print("O número secreto era:",numero_secreto)
 
 
 print("******************************")
