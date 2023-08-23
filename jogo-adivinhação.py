@@ -14,7 +14,6 @@ while total_de_tentativas == 10 or 5 or 3:
     print("Qual o nivel de dificuldade deseja?")
     dificuldade = input("(1) Fácil, (2) médio ou (3) difícil?:")
 
-
     if(dificuldade == "1"):
         total_de_tentativas = fácil
         
@@ -53,7 +52,6 @@ while total_de_tentativas == 10 or 5 or 3:
         
         if(rodada == total_de_tentativas):
             print("O número secreto era:",numero_secreto)
-
 
     print("******************************")
     print("Fim do Jogo!")
