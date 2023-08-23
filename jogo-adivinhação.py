@@ -58,3 +58,5 @@ while total_de_tentativas == 10 or 5 or 3:
     print("******************************")
     print("Fim do Jogo!")
     print("******************************")
+
+    break
