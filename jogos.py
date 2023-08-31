@@ -1,16 +1,26 @@
+import forca
+import jo
+
 print("*********************")
 print("Escolha o seu jogo!")
 print("**********************\n")
 
-print("(1) Jogo da Adivinhação (2) Jogo da Forca\n")
-jogo = int(input("Escolha o Jogo:"))
+jogo = 0
 
+while jogo == 1 or 2:
 
-if(jogo == 1):
-    print("Iniciando Jogo da advinhação!")
+    print("(1) Jogo da Adivinhação (2) Jogo da Forca\n")
+    jogo = int(input("Escolha o Jogo:"))
 
-elif(jogo == 2):
-    print("Iniciando Jogo da Forca!")
+    if(jogo == 1):
+        print("Iniciando Jogo da advinhação!")
+        adivinhação.jogar()
+        
 
-else:
-    print("Você não digitou uma opção válida!")
+    elif(jogo == 2):
+        print("Iniciando Jogo da Forca!")
+        forca.jogar()
+        
+    else:
+        print("Você não digitou uma opção válida!")
+        continue
