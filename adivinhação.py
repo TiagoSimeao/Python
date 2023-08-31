@@ -66,3 +66,5 @@ def jogar():
         print("******************************\n")
 
         break
+if(__name__== "__main__"):    
+    jogar()
