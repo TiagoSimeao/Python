@@ -10,7 +10,7 @@ def jogar():
 
     while(not enforcou and not acertou):
         
-        chute = input("Qual a letra?")
+        chute = input("Qual a letra?\n")
         
         posição = 1
         
@@ -20,6 +20,7 @@ def jogar():
                 print("Encontrei a letra {} na posição {}".format(chute,posição))
                 
             posição = posição+1
+            
 
             
     
