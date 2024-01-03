@@ -24,7 +24,7 @@ def jogar():
                 letras_acertadas[index] = letra
             index = index + 1
         
-        print(letras_acertadas)
+        print("\n",letras_acertadas,"\n")
             
 
             
