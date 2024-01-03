@@ -21,6 +21,9 @@ def jogar():
             
         elif(dificuldade == "2"):
             total_de_tentativas = médio
+        
+        elif(dificuldade == "3"):
+            total_de_tentativas = difícil
             
         elif(dificuldade != "1" != "2" != "3"):
             print("Você não inseriu uma dificuldade válida! Tente novamente!\n")
